@@ -3,83 +3,22 @@
     <div class="flex flex-col items-center flex-1 h-full justify-center px-4">
       <div class="flex w-full sm:w-3/4 bg-white sm:mx-4" style="height: 500px">
         <div class="hidden md:block md:w-1/2 lg:w-1/2 rounded-r-lg" style="background: url('https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80'); background-size: cover; background-position: center center;"></div>
-        <div class="container mx-auto p-8">
-          <div class="flex flex-row flex-wrap ml-6">
-
-            <div class="w-full sm:w-1/2 md:w-1/3 mb-4 px-2">
-              <div class="relative bg-white rounded border">
-                <picture class="block">
-                  <img class="block" src="https://cdn.dribbble.com/users/2237461/screenshots/7847983/media/82ce90a60373dbfe1d748172dd23150c.png" alt="Card 1">
-                </picture>
-              </div>
+        <div class="flex flex-col w-full md:w-1/2 sm:p-6">
+          <div class="flex flex-col flex-1 justify-center ml-20 md:ml-2 lg:ml-2">
+            <h1 class="font-bold text-xl mb-6 text-center hover:text-indigo-400 transition-colors transition-500 transition-linear">Front-End Developer + UI Designer ?</h1>
+           <div class="mb-4 text-xs text-gray-700 font-mono">
+             <p class="hover:line-through cursor-pointer transition-transform transition-500 transition-linear">Designer: “You shouldn’t put icons on every option. This introduces a ‘Hick’s Law’ issue and the user will be way too overwhelmed.”</p>
+             <p>👌Engineer: “Every one of these terms can’t be edited inline. That would overload the DOM. We need to have one single modal that opens to edit a term for efficiency.”</p>
+           </div>
+            <ul class="text-gray-800 text-sm mb-6 ">
+              <li class="text-justify mb-4"><span class="font-semibold text-indigo-600 hover:text-indigo-800 transition-colors transition-500 transition-ease-in-out">UX/UI Desing Skills: </span>User experience research, problem statement, user interviews, pain points, customer journey mapping, storyboards, prototyping and <span class="font-semibold">design solution</span></li>
+              <li class="text-justify mb-4"><span class="font-semibold text-indigo-600 hover:text-indigo-800 transition-colors transition-500-scroll transition-ease-in-out">Front-End Development: </span>Primary domain focused on the design/UI component layer of an application. Tecnology: React, Vue, Nuxt, Sass, PostCSS, Styled Components, UI Libraries (Material UI, Materialize, Reactstrap, TailwindCSS, Tachyons, Ant Design), Netlify, Node, Express, Firebase</li>
+              <li class="text-justify mb-4"><span class="font-semibold text-indigo-600 hover:text-indigo-800 transition-colors transition-500-scroll transition-ease-in-out">Education: </span> <span class="font-semibold"> Full-Stack Development Bootcamp </span> - Wild Code School (2019), <span class="font-semibold">Bachelor's Degree in Computer Science and Engineering </span> - Universidad Internacional de Valencia (2019 - present) </li>
+            </ul>
             </div>
-
-            <div class="w-full sm:w-1/2 md:w-1/3 mb-4 px-2">
-              <div class="relative bg-white rounded border">
-                <picture class="block">
-                  <img class="block" src="https://cdn.dribbble.com/users/2237461/screenshots/7888344/media/537c156e4cf4c5e2ccc239fe0ad6d093.png" alt="Card 1">
-                </picture>
-              </div>
-            </div>
-
-            <div class="w-full sm:w-1/2 md:w-1/3 mb-4 px-2">
-              <div class="relative bg-white rounded border">
-                <picture class="block">
-                  <img class="block" src="https://cdn.dribbble.com/users/2237461/screenshots/7918698/studio-upload.png" alt="Card 1">
-                </picture>
-              </div>
-            </div>
-
-<!--            <div class="w-full sm:w-1/2 md:w-1/3 mb-4 px-2">-->
-<!--              <div class="relative bg-white rounded border">-->
-<!--                <picture class="block">-->
-<!--                  <img class="block" src="https://via.placeholder.com/800x600/EDF2F7/E2E8F0/&amp;text=Card" alt="Card 1">-->
-<!--                </picture>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--            <div class="w-full sm:w-1/2 md:w-1/3 mb-4 px-2">-->
-<!--              <div class="relative bg-white rounded border">-->
-<!--                <picture class="block">-->
-<!--                  <img class="block" src="https://via.placeholder.com/800x600/EDF2F7/E2E8F0/&amp;text=Card" alt="Card 1">-->
-<!--                </picture>-->
-<!--              </div>-->
-<!--            </div>-->
-
-<!--            <div class="w-full sm:w-1/2 md:w-1/3 mb-4 px-2">-->
-<!--              <div class="relative bg-white rounded border">-->
-<!--                <picture class="block">-->
-<!--                  <img class="block" src="https://via.placeholder.com/800x600/EDF2F7/E2E8F0/&amp;text=Card" alt="Card 2">-->
-<!--                </picture>-->
-<!--              </div>-->
-<!--            </div>-->
-
-<!--            <div class="w-full sm:w-1/2 md:w-1/3 mb-4 px-2">-->
-<!--              <div class="relative bg-white rounded border">-->
-<!--                <picture class="block">-->
-<!--                  <img class="block" src="https://via.placeholder.com/800x600/EDF2F7/E2E8F0/&amp;text=Card" alt="Card 1">-->
-<!--                </picture>-->
-<!--              </div>-->
-<!--            </div>-->
-
-<!--            <div class="w-full sm:w-1/2 md:w-1/3 mb-4 px-2">-->
-<!--              <div class="relative bg-white rounded border">-->
-<!--                <picture class="block">-->
-<!--                  <img class="block" src="https://via.placeholder.com/800x600/EDF2F7/E2E8F0/&amp;text=Card" alt="Card 1">-->
-<!--                </picture>-->
-<!--              </div>-->
-<!--            </div>-->
-
-<!--            <div class="w-full sm:w-1/2 md:w-1/3 mb-4 px-2">-->
-<!--              <div class="relative bg-white rounded border">-->
-<!--                <picture class="block">-->
-<!--                  <img class="block" src="https://via.placeholder.com/800x600/EDF2F7/E2E8F0/&amp;text=Card" alt="Card 1">-->
-<!--                </picture>-->
-<!--              </div>-->
-<!--            </div>-->
     </div>
   </div>
   </div>
-    </div>
   </div>
 </template>
 

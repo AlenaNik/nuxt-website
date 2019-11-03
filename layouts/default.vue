@@ -17,12 +17,16 @@ export default {
   body {
     box-sizing: border-box;
     height: 100%;
+    background-color: white;
+    margin: 0;
+    font-family: "Helvetica Neue";
   }
 
   *,
   *:before,
   *:after {
     box-sizing: inherit;
+    margin: 0;
   }
 
 

@@ -40,6 +40,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    'nuxt-material-design-icons'
   ],
   /*
   ** Build configuration

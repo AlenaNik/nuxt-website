@@ -23,7 +23,7 @@ export default {
   ** Global CSS
   */
   css: [
-    'assets/css/tailwind.css'
+    'assets/css/pagetransition.css'
   ],
   /*
   ** Plugins to load before mounting the App

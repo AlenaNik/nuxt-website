@@ -1,19 +1,19 @@
 <template>
     <header>
-      <nav class="navbar fixed min-h-screen flex justify-center items-center">
+      <nav class="navbar fixed min-h-screen flex justify-center items-center mx-2">
         <ul>
           <li
-            class="mb-10 ml-6"
+            class="mb-10 mx-6 sm:mx-6 xs:mx-6"
           ><nuxt-link
             to="/">Home
           </nuxt-link>
           </li>
           <li
-            class="mb-10  ml-6"
+            class="mb-10 mx-6"
           ><nuxt-link
-            to="/showcase">Work</nuxt-link></li>
+            to="/work">Work</nuxt-link></li>
           <li
-            class="mb-10  ml-6"
+            class="mb-10 mx-6"
           ><nuxt-link
             to="/contact">Contact</nuxt-link></li>
         </ul>

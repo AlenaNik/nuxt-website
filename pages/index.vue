@@ -1,26 +1,34 @@
 <template>
-  <div class="inline-flex">
-  <div class="image">
-    <img src="https://images.unsplash.com/photo-1488485339565-566d63f7dbb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80" alt="">
-    <div class="max-w-sm rounded overflow-hidden ml-10">
-      <div class="px-6 py-4 ">
-        <div class="font-bold text-xl mb-2">Front-end Developer / UX Engineer </div>
-        <p class="text-gray-500 text-base">
-          Hey! Currently I'm working as UX/UI designer in Madrid at Next Limit. I finished my intensive 5-months training as a full-stack developer and started Software Engineering Degree at International Valencian University. I'm interested in building web applications (React and Vue), as well as designing clean UI, always keeping in mind visual design theory (typography, color, "look and feel", interaction, composition, color theory).
-        </p>
-      </div>
-      <div class="px-6 py-4 ml-10">
-        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm text-gray-700 mr-2">Twitter</span>
-        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm text-gray-700 mr-2">Dribble</span>
-        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm text-gray-700">LinkedIn</span>
+  <div class="h-screen w-screen">
+    <div class="flex flex-col items-center flex-1 h-full justify-center px-4">
+      <div class="flex w-full sm:w-3/4 bg-white sm:mx-4" style="height: 500px">
+        <div class="hidden md:block md:w-1/2 lg:w-1/2 rounded-r-lg" style="background: url('https://images.unsplash.com/photo-1488485339565-566d63f7dbb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80'); background-size: cover; background-position: center center;"></div>
+        <div class="flex flex-col w-full md:w-1/2 sm:p-10">
+          <div class="flex flex-col flex-1 justify-center mb-8 ml-20 md:ml-2 lg:ml-2">
+            <h1 class="font-bold text-xl mb-6 text-center hover:text-indigo-400 transition-colors transition-500 transition-linear">Front-End Developer / UI Designer </h1>
+                    <p class="text-gray-700 text-center text-sm mb-6 hover:text-indigo-400 transition-colors transition-500 transition-linear">
+                      Hey! My name is Alena and currently I'm working as UX/UI designer in Madrid at Next Limit. I enjoy coding as much as designing and this very website is build with Nuxt.js.
+                    </p>
+            <p class="text-gray-700 text-center text-sm hover:text-indigo-400 transition-colors transition-500 transition-linear">
+              If you'd like to be in touch, you cant find me on:
+            </p>
+            <div class="w-full mt-4">
+              <div class="py-4 text-center">
+                <a href="" target="_blank">   <span class="inline-block hover:text-indigo-400 hover:bg-indigo-100 rounded-full px-3 py-1 text-sm text-gray-700 mr-2 transition-colors transition-300 transition-linear"> <font-awesome-icon :icon="['fab', 'linkedin']"/></span></a>
+                <a href="" target="_blank">   <span class="inline-block hover:text-indigo-400 hover:bg-indigo-100 rounded-full px-3 py-1 text-sm text-gray-700 mr-2 transition-colors transition-300 transition-linear"> <font-awesome-icon :icon="['fab', 'dribbble']"/></span></a>
+                <a href="" target="_blank">   <span class="inline-block hover:text-indigo-400 hover:bg-indigo-100 rounded-full px-3 py-1 text-sm text-gray-700 mr-2 transition-colors transition-300 transition-linear"> <font-awesome-icon :icon="['fab', 'github']"/></span></a>
+                <a href="" target="_blank">   <span class="inline-block hover:text-indigo-400 hover:bg-indigo-100  rounded-full px-3 py-1 text-sm text-gray-700 mr-2 transition-colors transition-300 transition-linear"> <font-awesome-icon :icon="['fab', 'twitter']"/></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
-  </div>
-  </div>
+</div>
 </template>
 
 <script>
+
 
 export default {
 
@@ -28,24 +36,11 @@ export default {
 </script>
 
 <style scoped>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.image {
-  columns: 1;
-  column-gap: 2rem;
-  display: block;
-  margin: 4rem 0;
-  img {
-    margin: 0 0 2rem 0;
+  body {
+    box-sizing: border-box;
+    height: 100%;
+    background-color: white;
+    margin: 0;
+    font-family: "Helvetica Neue";
   }
-}
-@media (min-width: 29em) {
-  .image {
-    columns: 2;
-  }
-}
-
 </style>
